@@ -25,6 +25,10 @@ jQuery(function ($) {
 
     'use strict';
 
+    $(document).ready(function(){
+        $(this).scrollTop(0);
+    });
+
     /* ---------------------------------------------- /*
      * Preloader
     /* ---------------------------------------------- */

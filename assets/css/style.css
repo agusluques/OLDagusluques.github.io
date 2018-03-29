@@ -30,6 +30,8 @@
 
 
 body{
+    position: relative;
+    z-index: -2;
     font-family: 'Roboto', sans-serif;
     line-height: 28px;
     font-weight: 300;
@@ -566,6 +568,7 @@ SOCIAL ICON
 .biography{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     border:1px solid #EEEEEE;
     position: relative;
 }
@@ -937,6 +940,10 @@ Resume Timeline
 }
 .timeline>li .posted-date .month {
     float: none;
+}
+
+.resume-section, .month{
+    background: #cacaca;
 }
 
 
@@ -1415,7 +1422,7 @@ Icon for all respective meta
 
 /* === Hire Section === */
 .hire-section {
-    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
+    background: url(../../assets/images/counter-bg.jpg) no-repeat top center #68C3A3;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
@@ -1515,7 +1522,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	/*background-color: #68c3a3;*/
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1637,6 +1644,15 @@ Icon for all respective meta
 }
 
 /* === About Section === */
+.about-section{
+    position: relative;
+    z-index: -1;    
+    background: #cacaca no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+     
+
+}
 .short-info {
     margin-bottom: 40px;
 }
